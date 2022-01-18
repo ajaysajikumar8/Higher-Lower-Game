@@ -45,6 +45,6 @@ def game():
 
 #if the user guesses the wrong answer, tell the user that they are wrong and print the score. then the game ends
 
-
+game()
 
 
