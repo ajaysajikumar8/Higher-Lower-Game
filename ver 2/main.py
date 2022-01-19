@@ -3,9 +3,11 @@ import random
 from art import logo, vs
 from replit import clear
 
+
 def get_random_account():
   """Get data from random account"""
   return random.choice(data)
+
 
 def format_data(account):
   """Format account into printable format: name, description and country"""
@@ -14,6 +16,7 @@ def format_data(account):
   country = account["country"]
   # print(f'{name}: {account["follower_count"]}')
   return f"{name}, a {description}, from {country}"
+
 
 def check_answer(guess, a_followers, b_followers):
   """Checks followers against user's guess 
